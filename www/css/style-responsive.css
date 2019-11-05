@@ -188,7 +188,7 @@ Primary use:    MultiPurpose Template
     }
     
     .split-section-headings .section-title{
-        font-size: 35px;
+        font-size: 54px;
         letter-spacing: 5px;
     }
     
@@ -687,6 +687,15 @@ Primary use:    MultiPurpose Template
     .section-text {
         font-size: 15px;
         line-height: 1.7;
+    }
+      .section-text2 {
+        font-size: 54px;
+        line-height: 1.7;
+    }
+        .section-text-center {
+        font-size: 21px;
+        text-align: center
+        line-height: 1;
     }
     
     .tpl-minimal-tabs > li {

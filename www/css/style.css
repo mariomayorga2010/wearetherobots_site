@@ -365,16 +365,16 @@ img:not([draggable]), embed, object, video{
    ============================== */
 
 body{
-    color: #111;
+    color: #6d6e71;
     font-size: 14px;
-    font-family: "Open Sans", arial, sans-serif;
-    line-height: 1.6;    
-    -webkit-font-smoothing: antialiased;
+    font-family: "Open Sans";
+    line-height: 1;    
+    
 }
 
 a{
-    color: #111;
-    text-decoration: underline;
+    color: #58595b;
+    text-decoration:;
 }
 a:hover{
     color: #888;
@@ -413,10 +413,10 @@ blockquote{
 }
 blockquote p{
     margin-bottom: 1em;
-    font-size: 24px;
+    font-size: 29px;
     font-weight: 300;
     font-style: normal;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 blockquote footer{    
     font-size: 11px;
@@ -613,14 +613,14 @@ a.btn-mod{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 4px 13px;
-    color: #fff;
-    background: rgba(34,34,34, .9);
-    border: 2px solid transparent;
+    color: gray;
+    background: #fff;
+    border: 1px solid;
     font-size: 11px;
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -667,8 +667,8 @@ a.btn-mod:focus{
 } 
 .btn-mod.btn-large{
     height: auto;
-    padding: 12px 45px;
-    font-size: 13px;
+    padding: 10px 30px;
+    font-size: 22px;
 } 
 
 .btn-mod.btn-glass{
@@ -1023,7 +1023,7 @@ a.btn-mod:focus{
     display: table;
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: justify-all;
 }
 
 
@@ -1034,7 +1034,7 @@ a.btn-mod:focus{
 }
 .home-text{
     display: table-cell;
-    height: 100%;
+    height: 200%;
     vertical-align: middle;
 }
 
@@ -2431,7 +2431,7 @@ a.logo:hover{
     background-color: #f4f4f4;
 }
 .bg-gray-lighter{
-    background-color: #f8f8f8;
+    background-color: black;
 }
 .bg-dark,
 .bg-dark-lighter,
@@ -2741,8 +2741,8 @@ a.logo:hover{
 .section-text{
     font-size: 15px;
     font-weight: 300;
-    color: #777;
-    line-height: 1.7;
+    color: #6d6e71;
+    line-height: 1.1;
 }
 .section-text blockquote{
     margin-top: -5px;
@@ -2753,6 +2753,11 @@ a.logo:hover{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0); 
 }
+ .section-text-center {
+        font-size: 21px;
+        text-align: center
+        line-height: 1;
+    }
 .image-fullwidth img{
     width: 100%;
 }
@@ -5107,9 +5112,10 @@ section:hover .small-item-carousel .owl-next{
     color: #000;
 }
 .tpl-tabs-cont{
-    padding: 30px 0;
-    color: #777;
-    line-height: 1.8;
+    font-size: 21px;
+    color: #58595b;
+    line-height: 1.4;
+    text-align: center;
 }
 
 /*
