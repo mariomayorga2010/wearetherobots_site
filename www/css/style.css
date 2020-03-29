@@ -496,6 +496,15 @@ h6 {
     text-align: left;
 }
 
+.text7_contact7 {
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+    text-align: left;
+}
+font-weight
+
+
 .title_contact {
     font-size: 24px;
     font-weight: 300;
@@ -544,6 +553,12 @@ h6 {
     color: #58595b;
     text-align: center;
 }
+.subtitle_robot_contact {
+    font-size: 21px;
+    font-weight: 400;
+    color: #58595b;
+    text-align: center;
+}
 
 .subtitle2_robot2 {
     font-size: 54px;
@@ -557,6 +572,14 @@ h6 {
     color: #58595b;
     text-align: justify;
 }
+
+.text11_robot11 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #58595b;
+    text-align: center;
+}
+
 
 h1 {
     font-size: 36px;
@@ -1838,12 +1861,12 @@ a.logo:hover {
 
 
 .small-height {
-    height: 55px !important;
+    height: 80px !important;
 }
 
 .small-height .inner-nav ul li a {
-    height: 55px !important;
-    line-height: 55px !important;
+    height: 80px !important;
+    line-height: 80px !important;
 }
 
 .inner-nav {
